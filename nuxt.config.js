@@ -13,8 +13,10 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: pkg.description }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      { src: '/js/hotcss.js', type: 'text/javascript', charset: 'utf-8' },
+      { src: '/js/jweixin-1.4.0.js', type: 'text/javascript', charset: 'utf-8' }
     ]
   },
 
@@ -26,16 +28,12 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: [
-    'element-ui/lib/theme-chalk/index.css'
-  ],
+  css: ['element-ui/lib/theme-chalk/index.css', 'normalize.css'],
 
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-    '@/plugins/element-ui'
-  ],
+  plugins: ['@/plugins/element-ui'],
 
   /*
   ** Nuxt.js modules
@@ -55,6 +53,11 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    postcss: [
+      require('postcss-px2rem')({
+        remUnit: 33.75
+      })
+    ],
     /*
     ** You can extend webpack config here
     */
