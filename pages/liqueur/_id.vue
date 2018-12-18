@@ -10,7 +10,7 @@
     </audio>
     <div>
       <span>食品名称&nbsp;:&nbsp;</span>
-      <span>烧酒话（酱酒）2019年限量版</span>
+      <span>烧酒话（酱酒）2019年限量版 == 茅台镇第二传奇</span>
     </div>
     <div>
       <span>配&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;料&nbsp;:&nbsp;</span>
