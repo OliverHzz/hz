@@ -89,7 +89,7 @@ export default {
         },
         {
           title: '全国统一零售价 : ',
-          text: '3300元/瓶'
+          text: '3688元/瓶'
         }
       ]
       this.music = '/music/liqueurMP3.mp3'
@@ -158,7 +158,7 @@ export default {
       this.infos = [
         {
           title: '食品名称 : ',
-          text: '吴氏宗亲酒（酱香型）'
+          text: '吴氏宗亲酒（酱香型）爱拼才会赢'
         },
         { title: '配 料 : ', text: '高粱、小麦、水' },
         {
