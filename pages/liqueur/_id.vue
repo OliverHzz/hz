@@ -35,6 +35,8 @@ export default {
       title = '烧酒话'
     } else if (this.$route.params.id === '3') {
       title = '吴氏宗亲酒'
+    } else if (this.$route.params.id === '4') {
+      title = '烧酒话'
     }
     return {
       title: title
@@ -142,7 +144,7 @@ export default {
         },
         {
           title: '全国统一零售价 : ',
-          text: '1680元/瓶'
+          text: '1688元/瓶'
         }
       ]
       this.music = '/music/liqueurMP3.mp3'
@@ -189,6 +191,63 @@ export default {
         '/images/image03.jpg',
         '/images/image04.jpg',
         '/images/image05.jpg'
+      ]
+    } else if (this.$route.params.id === '4') {
+      this.infos = [
+        {
+          title: '食品名称 : ',
+          text: '烧酒话（酱香酒）'
+        },
+        { title: '香 型 : ', text: '酱香型白酒' },
+        {
+          title: '酒 精 度 : ',
+          text: '53%vol'
+        },
+        {
+          title: '净 含 量 : ',
+          text: '500ml'
+        },
+        {
+          title: '原 料 : ',
+          text: '高粱、小麦、水'
+        },
+        {
+          title: '执行标准 : ',
+          text: 'GB/T26760（优级）'
+        },
+        {
+          title: '生产许可证号 : ',
+          text: 'SC11552038200364'
+        },
+        {
+          title: '贮存条件 : ',
+          text: '在干燥、通风、阴凉、清洁的环境条件下保存'
+        },
+        {
+          title: '产 地 : ',
+          text: '贵州省仁怀市茅台镇岩滩村'
+        },
+        {
+          title: '生产厂家 : ',
+          text: '贵州省仁怀市茅台镇远明酿制酒厂'
+        },
+        {
+          title: '地 址 : ',
+          text: '贵州省仁怀市茅台镇'
+        },
+        {
+          title: '零售价 : ',
+          text: '598元/瓶'
+        }
+      ]
+      this.music = '/music/liqueurMP3.mp3'
+      this.images = [
+        '/images/image01.jpg',
+        '/images/image02.jpg',
+        '/images/image03.jpg',
+        '/images/image04.jpg',
+        '/images/image05.jpg',
+        '/images/image07.jpg'
       ]
     }
   },
